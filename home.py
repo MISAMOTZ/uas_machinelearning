@@ -17,6 +17,7 @@ if selected_menu == "Home":
 elif selected_menu == "Random Forest":
     st.title("Halaman Random Forest")
     st.write("Ini adalah halaman untuk Random Forest.")
+    import FISH_RF_APK 
 elif selected_menu == "SVM":
     st.title("Halaman SVM")
     st.write("Ini adalah halaman untuk SVM.")
