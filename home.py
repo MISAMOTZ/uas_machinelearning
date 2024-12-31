@@ -13,3 +13,15 @@ elif selected_menu == "Random Forest Ikan":
 elif selected_menu == "SVM Ikan":
     # Gunakan runpy untuk mengeksekusi file .py
     runpy.run_path('FISH_SVM_APK.py')
+elif selected_menu == "Random Forest Fruit":
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('FRUIT_RF_APK.py')
+elif selected_menu == "SVM Fruit":
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('FRUIT_SVM_APK.py')
+elif selected_menu == "Random Forest Pumpkin":
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('PUMPKIN_RF_APK.py')
+elif selected_menu == "SVM Pumpkin":
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('PUMPKIN_SVM_APK.py')
