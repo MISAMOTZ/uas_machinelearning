@@ -2,7 +2,7 @@ import streamlit as st
 import runpy
 
 # Tambahkan menu
-selected_menu = st.sidebar.radio("Pilih Menu:", ["Home", "Random Forest", "SVM"])
+selected_menu = st.sidebar.radio("Pilih Menu:", ["Home", "Random Forest Ikan", "SVM Ikan", "Random Forest Fruit", "SVM Fruit", "Random Forest Pumpkin", "SVM Pumpkin"])
 
 if selected_menu == "Home":
     st.title("Halaman Home")
