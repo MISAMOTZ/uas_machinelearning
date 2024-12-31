@@ -2,9 +2,6 @@ import pickle
 import streamlit as st
 import numpy as np
 
-st.title("Random Forest")
-st.write("Ini adalah halaman untuk Random Forest.")
-
 # Membaca model SVM dan scaler
 rf = pickle.load(open('rf_model_fish_data.sav', 'rb'))
 scaler = pickle.load(open('scaler_rf_fish.sav', 'rb'))
