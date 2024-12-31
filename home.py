@@ -1,4 +1,5 @@
 import streamlit as st
+import runpy
 
 st.title("Home")
 st.write("Selamat datang di aplikasi Multi-Page untuk Machine Learning!")
@@ -15,8 +16,8 @@ if selected_menu == "Home":
     st.title("Halaman Home")
     st.write("Ini adalah halaman utama.")
 elif selected_menu == "Random Forest":
-    # Mengimpor file FISH_RF_APK.py tanpa ekstensi .py
-    import FISH_RF_APK  # Pastikan file ini ada di direktori yang sama
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('FISH_RF_APK.py')
 elif selected_menu == "SVM":
-    # Mengimpor file FISH_SVM_APK.py tanpa ekstensi .py
-    import FISH_SVM_APK  # Pastikan file ini ada di direktori yang sama
+    # Gunakan runpy untuk mengeksekusi file .py
+    runpy.run_path('FISH_SVM_APK.py')
