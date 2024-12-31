@@ -3,9 +3,6 @@ import streamlit as st
 import numpy as np
 
 
-st.title("Support Vector Machine (SVM)")
-st.write("Ini adalah halaman untuk SVM.")
-
 # Membaca model SVM dan scaler
 svm = pickle.load(open('svm_model_fish_data.sav', 'rb'))
 scaler = pickle.load(open('scaler_svm_fish.sav', 'rb'))
