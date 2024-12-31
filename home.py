@@ -1,10 +1,6 @@
 import streamlit as st
 import runpy
 
-# Tambahkan deskripsi atau informasi di sidebar
-st.sidebar.title("Navigasi Aplikasi")
-st.sidebar.info("Gunakan menu di bawah untuk berpindah antar halaman.")
-
 # Tambahkan menu
 selected_menu = st.sidebar.radio("Pilih Menu:", ["Home", "Random Forest", "SVM"])
 
