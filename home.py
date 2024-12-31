@@ -16,5 +16,7 @@ if selected_menu == "Home":
     st.write("Ini adalah halaman utama.")
 elif selected_menu == "Random Forest":
     import FISH_RF_APK.py 
+    import requirements.txt
 elif selected_menu == "SVM":
     import FISH_SVM_APK.py
+    import requirements.txt
