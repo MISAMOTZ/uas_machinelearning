@@ -52,7 +52,7 @@ with col2:
 species_prediction = ''
 
 # Membuat tombol untuk prediksi
-if st.button('Test Prediksi Spesies Ikan'):
+if st.button('Test Prediksi Class Pumpkin'):
     # Scaling data input
     scaled_input = scaler.transform([[area, perimeter, major_axis_length, minor_axis_length, convex_area,
                                       equiv_diameter, eccentricity, solidity, extent, roundness,
@@ -63,4 +63,4 @@ if st.button('Test Prediksi Spesies Ikan'):
     species_prediction = species_pred[0]  # Ambil hasil prediksi pertama
 
     # Tampilkan hasil prediksi
-    st.success(f"Spesies yang Diprediksi: {species_prediction}")
+    st.success(f"Class yang Diprediksi: {species_prediction}")
