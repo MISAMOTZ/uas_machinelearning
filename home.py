@@ -15,8 +15,8 @@ if selected_menu == "Home":
     st.title("Halaman Home")
     st.write("Ini adalah halaman utama.")
 elif selected_menu == "Random Forest":
-    import FISH_RF_APK.py 
-    import requirements.txt
+    # Mengimpor file FISH_RF_APK.py tanpa ekstensi .py
+    import FISH_RF_APK  # Pastikan file ini ada di direktori yang sama
 elif selected_menu == "SVM":
-    import FISH_SVM_APK.py
-    import requirements.txt
+    # Mengimpor file FISH_SVM_APK.py tanpa ekstensi .py
+    import FISH_SVM_APK  # Pastikan file ini ada di direktori yang sama
